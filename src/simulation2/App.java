@@ -18,7 +18,7 @@ public class App {
         System.out.println("How many times your number appears 1-5? ");
         int num= scanner.nextInt();
         int[] numOfLine = new int[num];
-        System.out.println("Pls tell me in which line");
+        System.out.println("Pls tell me in which line 1-5: ");
         for (int i = 0; i < numOfLine.length; i++) {
             System.out.println();
             System.out.print("Line"+(i+1)+" : ");
